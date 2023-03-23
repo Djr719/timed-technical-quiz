@@ -5,13 +5,44 @@
 <link rel="stylesheet" href="Assets/quiz.css">
 <script type="text/javascript" src="Assets/quiz.js"></script>
 </head>
-<p>Commonly used data types do NOT include:</p>
-
-<form>
-  <input type="radio" id="html" name="Question 1" value="HTML">
-  <label for="html">HTML</label><br>
-  <input type="radio" id="css" name="fav_language" value="CSS">
-  <label for="css">CSS</label><br>
-  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-  <label for="javascript">JavaScript</label>
+<body>
+<form name="quiz" id="quiz">
+  <div>
+  <p>1. Inside which HTML element do we put JavaScript?</p>
+  <p><input type="radio" name= "question1" value="A">A. script</p>
+  <p><input type="radio" name= "question1" value="B">B. js</p>
+  <p><input type="radio" name= "question1" value="C">C. javascript</p>
+  <input type="radio" name= "question1" value="D">D. scripting</p>  
+</div>
+<div>
+  <p>2. Where is the correct place to insert JavaScript?</p>
+  <p><input type="radio" name= "question2" value="A">A. Both the head section and the body section are correct</p>
+  <p><input type="radio" name= "question2" value="B">B. The body section</p>
+  <p><input type="radio" name= "question2" value="C">C. The head section</p>
+  <input type="radio" name= "question2" value="D">D. The footer section</p>  
+</div>
+<div>
+  <p>3. How do you write "Hello World" in an alert box?</p>
+  <p><input type="radio" name= "question3" value="A">A. alertBox("Hello World"); </p>
+  <p><input type="radio" name= "question3" value="B">B. msgBox("Hello World");</p>
+  <p><input type="radio" name= "question3" value="C">C. alert("Hello World");  </p>
+  <input type="radio" name= "question3" value="D">D. msg("Hello World");</p>  
+</div>
+<div>
+  <p>4. How do you create a function in JavaScript?</p>
+  <p><input type="radio" name= "question4" value="A">A. function:myFunction()</p>
+  <p><input type="radio" name= "question4" value="B">B. function.myFunction()</p>
+  <p><input type="radio" name= "question4" value="C">C. function = myFunction()</p>
+  <input type="radio" name= "question4" value="D">D. function myFunction()</p>  
+</div>
+<div>
+  <p>5. How to write an IF statement in JavaScript?</p>
+  <p><input type="radio" name= "question5" value="A">A. if i == 5 then</p>
+  <p><input type="radio" name= "question5" value="B">B. if i = 5 then</p>
+  <p><input type="radio" name= "question5" value="C">C. if (i == 5)</p>
+  <input type="radio" name= "question5" value="D">D. if i = 5</p>  
+</div>
+<input type="button" name="Submit" value="Submit" onclick="check()">
 </form>
+</body>
+</html>
