@@ -1,3 +1,4 @@
+document.getElementById("questions").innerHTML = questions;
 var questions = [ {
     question: "1. Inside which HTML element do we put JavaScript?",
     choices: ["<script>", "<js>", "<JavaScript>", "<scripting>"],
