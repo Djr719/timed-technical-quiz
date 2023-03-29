@@ -1,14 +1,21 @@
-function check() {
-var c=0;
-var q1=document.quiz.question1.value;
-var q2=document.quiz.question2.value;
-var q3=document.quiz.question3.value;
-var q4=document.quiz.question4.value;
-var q5=document.quiz.question5.value;
-if (q1=="A") {c++}
-if (q2=="A") {c++}
-if (q3=="C") {c++}
-if (q4=="D") {c++}
-if (q5=="C") {c++}
-document.write(c);
-}
+var questions = [ {
+    question: "1. Inside which HTML element do we put JavaScript?",
+    choices: ["<script>", "<js>", "<JavaScript>", "<scripting>"],
+    answer: 1
+},
+{ question: "2. Where is the correct place to insert JavaScript?",
+  choices: ["both the <head> and <body> section", "the <head> section", "the <body> section",
+"the <footer> section"],
+answer: 1},
+{ question: "3. How do you write 'Hello World' in an alert box?",
+  choices: ["alertBox('Hello World')", "msgBox('Hello World')", "alert('Hello World')", 
+"msg('Hello World')"],
+answer: 3 },
+{question:"4. How do you create a function in JavaScript?",
+choices: [" function:myFunction()", "function.myFunction()", "function = myFunction()", 
+"function myFunction()"],
+answer: 4},
+{question: "5. How to write an IF statement in JavaScript?",
+choices: ["if i == 5 then", "if i = 5 then", "if (i == 5)", "if i = 5"],
+answer:3} 
+]
